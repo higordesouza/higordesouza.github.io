@@ -1,7 +1,3 @@
-# Cafetería Delicia
-
-Bienvenidos a **Cafetería Delicia**, el lugar perfecto para disfrutar de un café exquisito y un ambiente acogedor.
-
 ## Sobre Nosotros
 En *Cafetería Delicia* nos apasiona el café. Seleccionamos los mejores granos de origen sostenible y los preparamos con dedicación para ofrecerte una experiencia única en cada taza.
 
