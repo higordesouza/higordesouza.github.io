@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ffffff;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: sienna;
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav a:hover {
+    background-color: #702f00;
+    border-radius: 10px 15px;
+    color: #ffffff;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
