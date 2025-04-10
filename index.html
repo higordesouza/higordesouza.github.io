@@ -1,27 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
     <link rel="stylesheet" href="style.css">
-    <title>Cafeteria Delicia</title>
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <div class="logo"><img src="image-removebg-preview (2).png" alt=""></div>
-            <nav class="nav">
-                <a href="#">Inicio</a>
-                <a href="#">Productos</a>
-                <a href="#">Contacto</a>
-                <a href="#">Login</a>
-            </nav>
-        </div>
-        <div class="Titulo"><h1>Elaborado a la perfeccion</h1></div>
-        <div class="CTA">
-            <a href="#"class="boton">Ordena ahora</a>
-        </div>
+    <header class="header">
+        <div class="logo">Food<span style="color: orange;">ly</span></div>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Sobre Nosotros</a>
+            <a href="#">Contacto</a>
+        </nav>
     </header>
-    
+
+    <section class="hero">
+        <h1>Tenemos lo que te gusta</h1>
+        <p>Fresco. Rapido. Delicioso.</p>
+        <button>Order Now</button>
+    </section>
+
+    <section class="categories">
+        <h2>Más de <span>20,000</span> platos para ordenar</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="food-712665_1920.jpg" alt="Sushi">
+                <div class="content">
+                    <h3>SUSHI</h3>
+                    <p>Más de 50 tipos de sushi</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="pizza-5275191_1920.jpg" alt="Pizza">
+                <div class="content">
+                    <h3>PIZZA</h3>
+                    <p>Escoge tu pizza favorita</p>
+                </div>
+
+            </div>
+            <div class="card">
+                <img src="ai-generated-8276129_1920.jpg" alt="Burgers">
+                <div class="content">
+                    <h3>BURGERS</h3>
+                    <p>De vegetariana hasta tres carnes</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="how-to-order">
+        <h2>¿Como pedir?</h2>
+        <p>Es muy fácil, solo sigue estos pasos</p>
+        <div class="steps">
+            <div class="img-pedir">
+                <img src="Captura de pantalla 2025-04-10 163537.png" alt="Paso 1">
+                <h3>Elige tu ubicacion</h3>
+            </div>
+            <div class="img-pedir">
+                <img src="Captura de pantalla 2025-04-10 164017.png" alt="Paso 2">
+                <h3>Elige el restaurante</h3>
+            </div>
+            <div class="img-pedir">
+                <img src="Captura de pantalla 2025-04-10 164041.png" alt="Paso 3">
+                <h3>Elige los productos</h3>
+                </div>
+            <div class="img-pedir">
+                <img src="Captura de pantalla 2025-04-10 164053.png" alt="Paso 4">
+                <h3>Recibe tu comida</h3>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <h2>Contactanos</h2>
+        <form>
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Tu mensaje" rows="4" required></textarea>
+            <button type="submit">Envianos un mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 Foodly. Todos los derechos reservados.</p>
+    </footer>
 </body>
+
 </html>
